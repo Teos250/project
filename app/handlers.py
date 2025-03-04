@@ -26,6 +26,9 @@ async def t_shirt(callback:CallbackQuery):
     await callback.answer('Вы Выбрали категорию футболок')
 
 
+
+
+
 @router.callback_query(F.data=='da')
 async def t_shirt(callback:CallbackQuery):
     await callback.answer('ША')
